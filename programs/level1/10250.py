@@ -1,13 +1,14 @@
 import sys
 
-keys = [
-    "Height",
-    "Weight",
-    "Number"
-]
-
 lines = sys.stdin.read().splitlines()
-N = int(lines[0])
-values = lines[1:N+1]
+case_num = int(lines[0])
+data_list = [{"H": int(h), "W": int(w), "N": int(n)} for h, w, n in (line.split() for line in lines[1:case_num+1])]
 
-print(values)
+for case in data_list:
+    if case["N"]%case["H"] == 0:
+        H = case["H"]* 100
+        W = case["N"]//case["H"]
+    else:
+        H = case["N"]%case["H"]*100
+        W = case["N"]//case["H"]+1
+    print(H+W)
