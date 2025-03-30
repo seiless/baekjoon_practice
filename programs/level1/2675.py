@@ -1,14 +1,14 @@
 test_case_num = int(input())
 
-test_case_dict = {}
+test_case_list = []
 
 for _ in range(test_case_num):
-    key, value = input().split()
-    test_case_dict[key] = value
-    
-for key in test_case_dict:
-    key_int = int(key)
-    print_value = ''
-    for char in test_case_dict[key]:
-        print_value = print_value + (char*key_int)
-    print(print_value)
+    test_case_list.append(input().split())
+
+for case in test_case_list:
+    repeat_num = int(case[0])
+    repeat_char = case[1]
+    print_char = ''
+    for char in repeat_char:
+        print_char = print_char + repeat_num * char
+    print(print_char)
