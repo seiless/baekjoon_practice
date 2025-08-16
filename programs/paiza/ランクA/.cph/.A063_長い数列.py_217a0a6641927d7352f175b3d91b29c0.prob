@@ -1,0 +1,1 @@
+{"name":"Local: A063_長い数列","url":"c:\\Users\\namwonjin\\baekjoon_practice\\programs\\paiza\\ランクA\\A063_長い数列.py","tests":[{"id":1751184174408,"input":"3\n300 10\n100 0\n200 20","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\namwonjin\\baekjoon_practice\\programs\\paiza\\ランクA\\A063_長い数列.py","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 2738","url":"c:\\Users\\namwonjin\\baekjoon_practice\\programs\\level1\\2738.py","tests":[{"id":1749726712166,"input":"3 3\n1 1 1\n2 2 2\n0 1 0\n3 3 3\n4 4 4\n5 5 100","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\namwonjin\\baekjoon_practice\\programs\\level1\\2738.py","group":"local","local":true}
